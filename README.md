@@ -23,3 +23,6 @@ How to run
 4) Next, Build project by click on Product > Build
 5) After finished all above steps, just click button Run (Project > Run) and play the game.
 
+DEMO
+--------------------
+https://www.youtube.com/watch?v=6nLFqxvzsjk&t=93s
