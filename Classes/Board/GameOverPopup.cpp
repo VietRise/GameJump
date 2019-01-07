@@ -61,7 +61,7 @@ bool GameOverPopup::init()
     // Button Play Again
     _btnPlayAgain = Button::create("board.png", "board.png", "board.png", TextureResType::LOCAL);
     _btnPlayAgain->setScale9Enabled(true);
-    _btnPlayAgain->setContentSize(Size(250, 100));
+    _btnPlayAgain->setContentSize(Size(200, 100));
     _btnPlayAgain->setTitleText("PlayAgain");
     _btnPlayAgain->setTitleFontSize(28);
     _btnPlayAgain->setPosition(Vec2(_bg->getContentSize().width * 0.35f, _bg->getContentSize().height * 0.3f));
@@ -71,7 +71,7 @@ bool GameOverPopup::init()
     // Button Quit
     _btnQuit = Button::create("board.png", "board.png", "board.png", TextureResType::LOCAL);
     _btnQuit->setScale9Enabled(true);
-    _btnQuit->setContentSize(Size(250, 100));
+    _btnQuit->setContentSize(Size(200, 100));
     _btnQuit->setTitleText("Quit");
     _btnQuit->setTitleFontSize(28);
     _btnQuit->setPosition(Vec2(_bg->getContentSize().width * 0.65f, _bg->getContentSize().height * 0.3f));
